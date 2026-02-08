@@ -16,15 +16,15 @@ class Welcome : AppCompatActivity() {
         enableEdgeToEdge()
         binding= ActivityWelcomeBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        binding.candiBtn.setOnClickListener {
+        binding.TV3.setOnClickListener {
             Toast.makeText(this, "begin button clicked", Toast.LENGTH_SHORT).show()
             startActivity(Intent(this@Welcome, MainActivity::class.java))
         }
-
-        binding.loginBtn.setOnClickListener {
-            Toast.makeText(this, "begin button clicked", Toast.LENGTH_SHORT).show()
-            startActivity(Intent(this@Welcome, MainActivity::class.java))
-        }
+//
+//        binding.loginBtn.setOnClickListener {
+//            Toast.makeText(this, "begin button clicked", Toast.LENGTH_SHORT).show()
+//            startActivity(Intent(this@Welcome, MainActivity::class.java))
+//        }
 
 
 

@@ -12,13 +12,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Person_Voting">
         <activity
+            android:name=".Recycleer"
+            android:exported="false" />
+        <activity
             android:name=".login"
             android:exported="false" />
         <activity
             android:name=".Welcome"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,6 +26,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"></activity>
     </application>
 
 </manifest>

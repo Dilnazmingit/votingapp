@@ -21,6 +21,13 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this, "begin button clicked", Toast.LENGTH_SHORT).show()
             startActivity(Intent(this@MainActivity, Welcome::class.java))
         }
+        binding.mafiBtn.setOnClickListener {
+            Toast.makeText(this, "begin button clicked", Toast.LENGTH_SHORT).show()
+            startActivity(Intent(this@MainActivity, Recycleer::class.java))
+        }
+
+
+
 
     }
 }

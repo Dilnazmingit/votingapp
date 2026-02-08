@@ -8,60 +8,96 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Welcome">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:src="@drawable/vote"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </de.hdodenhof.circleimageview.CircleImageView>
     <TextView
-        android:id="@+id/wel"
+        android:id="@+id/TV1"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:layout_marginTop="5dp"
-        android:text="@string/app_name"
+        android:layout_marginTop="20dp"
+        android:text="Stay Tuned"
         android:textAlignment="center"
         android:textColor="@android:color/black"
         android:textSize="40.sp"
         android:textStyle="bold">
     </TextView>
-
-    <de.hdodenhof.circleimageview.CircleImageView
-        android:src="@drawable/sir"
+    <TextView
+        android:id="@+id/Tv2"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-    </de.hdodenhof.circleimageview.CircleImageView>
-    <Button
-
-        android:id="@+id/loginBtn"
+        android:layout_height="100dp"
         android:layout_marginTop="5dp"
-        android:paddingHorizontal="10dp"
+        android:text="Follow each Candidate's election Campaign"
+
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="20.sp"
+        android:textStyle="bold">
+    </TextView>
+    <EditText
+        android:id="@+id/TVem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
         android:layout_marginRight="10dp"
         android:layout_marginLeft="10dp"
-        android:text="Login"
-        android:padding="10dp"
+        android:hint="Enter Your Gmail"
         android:textAlignment="center"
-        android:textColor="@color/black"
-        android:textSize="20.sp"
-        android:textStyle="bold"
-        android:backgroundTint="@color/white"
-        android:layout_marginBottom="15dp"
+        android:textColor="@android:color/white"
+        android:textSize="30.sp">
+    </EditText>
+    <TextView
+        android:id="@+id/TVotp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-    </Button>
-    <Button
-
-        android:id="@+id/candiBtn"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="Create OTP"
+        android:background="@color/blue"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="40.sp"
+        android:textStyle="bold">
+    </TextView>
+<!-- LAST PART-->
+    <TextView
+        android:id="@+id/TV3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:paddingHorizontal="10dp"
         android:layout_marginRight="10dp"
         android:layout_marginLeft="10dp"
-        android:text="CANDIDATE"
-        android:padding="10dp"
+        android:text="Next"
         android:textAlignment="center"
-        android:textColor="@color/black"
-        android:textSize="20.sp"
-        android:textStyle="bold"
-        android:backgroundTint="@color/white"
-        android:layout_marginBottom="15dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:background="@color/blue"
+        android:textColor="@android:color/white"
+        android:textSize="40.sp"
+        android:textStyle="bold">
+    </TextView>
+<!--    <Button-->
 
-    </Button>
+<!--        android:id="@+id/loginBtn"-->
+<!--        android:layout_marginTop="5dp"-->
+<!--        android:paddingHorizontal="10dp"-->
+<!--        android:layout_marginRight="10dp"-->
+<!--        android:layout_marginLeft="10dp"-->
+<!--        android:text="Next"-->
+<!--        android:padding="10dp"-->
+<!--        android:textAlignment="center"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="20.sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:backgroundTint="@color/white"-->
+<!--        android:layout_marginBottom="15dp"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content">-->
+
+
 </LinearLayout>
